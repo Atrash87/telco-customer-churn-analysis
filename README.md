@@ -17,7 +17,8 @@ This project analyzes the Telco Customer Churn dataset to understand the factors
 
 - Provide actionable insights to reduce churn and optimize revenue
 
-2. Dataset
+## 2. Dataset
+
 Source: [Telco Customer Churn Dataset on Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn?resource=download)
 
 | Column          | Description                                      |
@@ -32,3 +33,4 @@ Source: [Telco Customer Churn Dataset on Kaggle](https://www.kaggle.com/datasets
 | MonthlyCharges  | Monthly subscription cost                        |
 | TotalCharges    | Total charges paid by customer                  |
 | Churn           | Whether the customer left (Yes/No)              |
+
