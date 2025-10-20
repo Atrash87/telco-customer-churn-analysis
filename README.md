@@ -9,14 +9,6 @@ Analyzing customer churn and retention patterns using SQL
 
 This project analyzes the Telco Customer Churn dataset to understand the factors influencing customer retention and attrition. Using SQL, the analysis uncovers patterns related to customer demographics, contract types, tenure, and charges, helping telecom companies identify at-risk customers and improve loyalty.
 
-**Key goals of this project:**
-
-- Identify the main drivers of customer churn
-
-- Segment customers based on risk factors
-
-- Provide actionable insights to reduce churn and optimize revenue
-
 ## 2. Dataset
 
 Source: [Telco Customer Churn Dataset on Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn?resource=download)
@@ -53,6 +45,8 @@ SELECT
   ROUND(100.0 * SUM(CASE WHEN Churn = 'Yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS churn_rate
 FROM Telco_Customer_Churn;
 ```
+![Overall Customer Churn.png](../Figures/Overall_Customer_Churn.png)
+
 ------
 ## 4.2 Churn by Demographics
 - **Senior citizens** have significantly higher **churn (~42%)** compared to non-seniors (~23%). **Gender** differences are **minimal**.
