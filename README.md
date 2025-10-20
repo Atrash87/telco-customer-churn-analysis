@@ -132,9 +132,9 @@ LIMIT 20;
 
 - Target Month-to-Month and Senior Customers.
 
-- Early Engagement: Customers tend to churn within the first year — onboarding and early support are crucial.
+- Early Engagement: Customers tend to churn within the first year, onboarding and early support are crucial.
 
-- High-Paying Customers at Risk: Consider loyalty discounts or personalized offers to retain high-value customers.
+- High-Paying Customers at Risk: loyalty discounts or personalized offers to retain high-value customers.
 
-- Contract Incentives: Encourage longer-term contracts for new customers to reduce early churn.
+- Contract Incentives: longer-term contracts for new customers to reduce early churn.
 
