@@ -45,7 +45,7 @@ SELECT
   ROUND(100.0 * SUM(CASE WHEN Churn = 'Yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS churn_rate
 FROM Telco_Customer_Churn;
 ```
-![Overall Customer Churn.png](../Figures/Overall_Customer_Churn.png)
+![Overall Customer Churn.png](Figures/Overall_Customer_Churn.png)
 
 ------
 ## 4.2 Churn by Demographics
