@@ -100,7 +100,7 @@ GROUP BY Churn;
 ## 4.5 Top 10 High-Risk Customers
 **Useful for targeted retention strategies.**
 
----SQL
+```SQL
 SELECT 
   customerID,
   Contract,
@@ -126,4 +126,15 @@ LIMIT 20;
 | 1555-DJEQW   | Two year       | 70             | 114.20           | 7723.90         | Fiber optic     |
 | 9158-VCTQB   | Month-to-month | 41             | 113.60           | 4594.95         | Fiber optic     |
 | 7279-BUYWN   | Month-to-month | 41             | 113.20           | 4689.50         | Fiber optic     |
+
+
+## 5. Key Insights & Recommendations
+
+- Target Month-to-Month and Senior Customers.
+
+- Early Engagement: Customers tend to churn within the first year — onboarding and early support are crucial.
+
+- High-Paying Customers at Risk: Consider loyalty discounts or personalized offers to retain high-value customers.
+
+- Contract Incentives: Encourage longer-term contracts for new customers to reduce early churn.
 
