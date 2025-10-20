@@ -61,7 +61,8 @@ FROM Telco_Customer_Churn
 GROUP BY gender, SeniorCitizen
 ORDER BY churn_rate DESC;
 ```
-Figure
+![Churn by Demographics](Figures/Churn_Rate_by_Gender_and_Senior_Citizen_Status.png)
+
 ## 4.3 Churn by Contract Type & Tenure
 - Month-to-month contracts have highest churn, especially in the first 12 months.
 - Longer-term contracts (1-year, 2-year) show much lower churn.
@@ -76,8 +77,8 @@ FROM Telco_Customer_Churn
 GROUP BY Contract, tenure_group
 ORDER BY Contract, tenure_group;
 ```
+![Churn by Contract Type & Tenure](Figures/Churn_Rate_by_Gender_and_Senior_Citizen_Status.png)
 
-FIgure
 
 ## 4.4 Average Monthly Charges & Tenure
 - Customers who churn tend to pay higher monthly charges but have shorter tenure, indicating early dissatisfaction or higher cost sensitivity.
@@ -91,6 +92,8 @@ SELECT
 FROM Telco_Customer_Churn
 GROUP BY Churn;
 ```
+![Average Monthly Charges & Tenure](Figures/Average_Monthly_Charge_and_Tenure_by_Customer_Status.png)
+
 ## 4.5 Top 10 High-Risk Customers
 **Useful for targeted retention strategies.**
 
