@@ -111,21 +111,6 @@ FROM Telco_Customer_Churn
 WHERE Churn = 'Yes'
 ORDER BY MonthlyCharges DESC, tenure ASC
 LIMIT 20;
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 | CustomerID   | Contract       | Tenure (months) | Monthly Charges ($) | Total Charges ($) | Internet Service |
 |--------------|----------------|----------------|------------------|-----------------|----------------|
