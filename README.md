@@ -77,7 +77,7 @@ FROM Telco_Customer_Churn
 GROUP BY Contract, tenure_group
 ORDER BY Contract, tenure_group;
 ```
-![Churn by Contract Type & Tenure](Figures/Churn_Rate_by_Gender_and_Senior_Citizen_Status.png)
+![Churn by Contract Type & Tenure](Figures/Churn_Rate_by%20Contract_Type.png)
 
 
 ## 4.4 Average Monthly Charges & Tenure
