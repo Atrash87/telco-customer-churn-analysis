@@ -113,6 +113,7 @@ ORDER BY MonthlyCharges DESC, tenure ASC
 LIMIT 20;
 ```
 
+
 | CustomerID   | Contract       | Tenure (months) | Monthly Charges ($) | Total Charges ($) | Internet Service |
 |--------------|----------------|----------------|------------------|-----------------|----------------|
 | 8199-ZLLSA   | One year       | 67             | 118.35           | 7804.15         | Fiber optic     |
@@ -126,15 +127,3 @@ LIMIT 20;
 | 9158-VCTQB   | Month-to-month | 41             | 113.60           | 4594.95         | Fiber optic     |
 | 7279-BUYWN   | Month-to-month | 41             | 113.20           | 4689.50         | Fiber optic     |
 
-
-
-
-## 5. Key Insights & Recommendations
-
-- Target Month-to-Month and Senior Customers
-
-- Early Engagement: Customers tend to churn within the first year — onboarding and early support are crucial.
-
-- High-Paying Customers at Risk: Consider loyalty discounts or personalized offers to retain high-value customers.
-
-- Contract Incentives: Encourage longer-term contracts for new customers to reduce early churn.
