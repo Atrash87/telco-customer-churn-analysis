@@ -114,6 +114,19 @@ LIMIT 20;
 ```
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 | CustomerID   | Contract       | Tenure (months) | Monthly Charges ($) | Total Charges ($) | Internet Service |
 |--------------|----------------|----------------|------------------|-----------------|----------------|
 | 8199-ZLLSA   | One year       | 67             | 118.35           | 7804.15         | Fiber optic     |
