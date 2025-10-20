@@ -1,6 +1,3 @@
-# telco-customer-churn-analysis
-Analyzing customer churn and retention patterns using SQL
-
 ## Project Title
 
 **Telco Customer Churn Analysis – Using SQL for Business Insights**
