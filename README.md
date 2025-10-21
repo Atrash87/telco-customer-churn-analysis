@@ -107,7 +107,7 @@ WHERE Churn = 'Yes'
 ORDER BY MonthlyCharges DESC, tenure ASC
 LIMIT 20;
 ```
-**Top 10 High-Risk Customers**
+**Table 1:Top 10 High-Risk Customers**
 | CustomerID   | Contract       | Tenure (months) | Monthly Charges ($) | Total Charges ($) | Internet Service |
 |--------------|----------------|----------------|------------------|-----------------|----------------|
 | 8199-ZLLSA   | One year       | 67             | 118.35           | 7804.15         | Fiber optic     |
